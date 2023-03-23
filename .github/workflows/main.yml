@@ -25,3 +25,5 @@ jobs:
         project_name: "My Project Name"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
+        on_failure: "continue_on_failure"
+        mode: "not real mode"
